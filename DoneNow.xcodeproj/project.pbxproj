@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* Assets.xcassets */; };
+		100000000000000000000001 /* DoneNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* DoneNowTests.swift */; };
+		651E0739305F71A700C80A78 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 651E0738305F71A700C80A78 /* GoogleMobileAds */; };
+		D0A000000000000000000001 /* atmosphere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000001 /* atmosphere.mp3 */; };
+		D0A000000000000000000002 /* thunderstorm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000002 /* thunderstorm.mp3 */; };
+		D0A000000000000000000003 /* gentle_rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000003 /* gentle_rain.mp3 */; };
+		D0A000000000000000000004 /* calm_ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000004 /* calm_ocean.mp3 */; };
+		D0A000000000000000000005 /* fireplace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000005 /* fireplace.mp3 */; };
+		D0A000000000000000000006 /* forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000006 /* forest.mp3 */; };
+		D0A000000000000000000007 /* stream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000007 /* stream.mp3 */; };
+		D0A000000000000000000008 /* soft_wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000008 /* soft_wind.mp3 */; };
+		D0A000000000000000000009 /* morning_birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B000000000000000000009 /* morning_birds.mp3 */; };
+		D0A00000000000000000000A /* deep_space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B00000000000000000000A /* deep_space.mp3 */; };
+		D0A00000000000000000000B /* focus_atmosphere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B00000000000000000000B /* focus_atmosphere.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10000000000000000000000B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000005;
+			remoteInfo = DoneNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000006 /* DoneNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = DoneNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100000000000000000000002 /* DoneNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneNowTests.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* DoneNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoneNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B000000000000000000001 /* atmosphere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = atmosphere.mp3; sourceTree = "<group>"; };
+		D0B000000000000000000002 /* thunderstorm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunderstorm.mp3; sourceTree = "<group>"; };
+		D0B000000000000000000003 /* gentle_rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gentle_rain.mp3; sourceTree = "<group>"; };
+		D0B000000000000000000004 /* calm_ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = calm_ocean.mp3; sourceTree = "<group>"; };
+		D0B000000000000000000005 /* fireplace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fireplace.mp3; sourceTree = "<group>"; };
+		D0B000000000000000000006 /* forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forest.mp3; sourceTree = "<group>"; };
+		D0B000000000000000000007 /* stream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stream.mp3; sourceTree = "<group>"; };
+		D0B000000000000000000008 /* soft_wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soft_wind.mp3; sourceTree = "<group>"; };
+		D0B000000000000000000009 /* morning_birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morning_birds.mp3; sourceTree = "<group>"; };
+		D0B00000000000000000000A /* deep_space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = deep_space.mp3; sourceTree = "<group>"; };
+		D0B00000000000000000000B /* focus_atmosphere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = focus_atmosphere.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		000000000000000000000004 /* Sources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651E0739305F71A700C80A78 /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10000000000000000000000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000004 /* Sources */,
+				100000000000000000000004 /* DoneNowTests */,
+				D0C000000000000000000001 /* Resources/Audio */,
+				000000000000000000000011 /* Assets.xcassets */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000006 /* DoneNow.app */,
+				100000000000000000000003 /* DoneNowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000004 /* DoneNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000002 /* DoneNowTests.swift */,
+			);
+			path = DoneNowTests;
+			sourceTree = "<group>";
+		};
+		D0C000000000000000000001 /* Resources/Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D0B000000000000000000001 /* atmosphere.mp3 */,
+				D0B000000000000000000002 /* thunderstorm.mp3 */,
+				D0B000000000000000000003 /* gentle_rain.mp3 */,
+				D0B000000000000000000004 /* calm_ocean.mp3 */,
+				D0B000000000000000000005 /* fireplace.mp3 */,
+				D0B000000000000000000006 /* forest.mp3 */,
+				D0B000000000000000000007 /* stream.mp3 */,
+				D0B000000000000000000008 /* soft_wind.mp3 */,
+				D0B000000000000000000009 /* morning_birds.mp3 */,
+				D0B00000000000000000000A /* deep_space.mp3 */,
+				D0B00000000000000000000B /* focus_atmosphere.mp3 */,
+			);
+			path = Resources/Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000005 /* DoneNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000009 /* Build configuration list for PBXNativeTarget "DoneNow" */;
+			buildPhases = (
+				000000000000000000000007 /* Sources */,
+				00000000000000000000000E /* Frameworks */,
+				00000000000000000000000F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				000000000000000000000004 /* Sources */,
+			);
+			name = DoneNow;
+			packageProductDependencies = (
+				651E0738305F71A700C80A78 /* GoogleMobileAds */,
+			);
+			productName = DoneNow;
+			productReference = 000000000000000000000006 /* DoneNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000005 /* DoneNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000009 /* Build configuration list for PBXNativeTarget "DoneNowTests" */;
+			buildPhases = (
+				100000000000000000000007 /* Sources */,
+				10000000000000000000000E /* Frameworks */,
+				10000000000000000000000F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10000000000000000000000A /* PBXTargetDependency */,
+			);
+			name = DoneNowTests;
+			productName = DoneNowTests;
+			productReference = 100000000000000000000003 /* DoneNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 000000000000000000000008 /* Build configuration list for PBXProject "DoneNow" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			packageReferences = (
+				651E0737305F71A700C80A78 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000005 /* DoneNow */,
+				100000000000000000000005 /* DoneNowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000000F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000010 /* Assets.xcassets in Resources */,
+				D0A000000000000000000001 /* atmosphere.mp3 in Resources */,
+				D0A000000000000000000002 /* thunderstorm.mp3 in Resources */,
+				D0A000000000000000000003 /* gentle_rain.mp3 in Resources */,
+				D0A000000000000000000004 /* calm_ocean.mp3 in Resources */,
+				D0A000000000000000000005 /* fireplace.mp3 in Resources */,
+				D0A000000000000000000006 /* forest.mp3 in Resources */,
+				D0A000000000000000000007 /* stream.mp3 in Resources */,
+				D0A000000000000000000008 /* soft_wind.mp3 in Resources */,
+				D0A000000000000000000009 /* morning_birds.mp3 in Resources */,
+				D0A00000000000000000000A /* deep_space.mp3 in Resources */,
+				D0A00000000000000000000B /* focus_atmosphere.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10000000000000000000000F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001 /* DoneNowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10000000000000000000000A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000005 /* DoneNow */;
+			targetProxy = 10000000000000000000000B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		00000000000000000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		00000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 693AH4QR5Q;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DoneNow;
+				INFOPLIST_KEY_GADApplicationIdentifier = "ca-app-pub-9920152861798489~2861528630";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naheeminnis.donenow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 693AH4QR5Q;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DoneNow;
+				INFOPLIST_KEY_GADApplicationIdentifier = "ca-app-pub-9920152861798489~2861528630";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naheeminnis.donenow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "DoneNow AppStore Distribution 2026";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		100000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 693AH4QR5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naheeminnis.donenow.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoneNow.app/DoneNow";
+			};
+			name = Debug;
+		};
+		100000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 693AH4QR5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naheeminnis.donenow.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoneNow.app/DoneNow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000008 /* Build configuration list for PBXProject "DoneNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000A /* Debug */,
+				00000000000000000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		000000000000000000000009 /* Build configuration list for PBXNativeTarget "DoneNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000C /* Debug */,
+				00000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		100000000000000000000009 /* Build configuration list for PBXNativeTarget "DoneNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000010 /* Debug */,
+				100000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		651E0737305F71A700C80A78 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		651E0738305F71A700C80A78 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 651E0737305F71A700C80A78 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
